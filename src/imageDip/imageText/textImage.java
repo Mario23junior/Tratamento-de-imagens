@@ -12,7 +12,7 @@ public class textImage extends JPanel{
 	
 	 public void paint(Graphics g) {
 	      Image img = createImageWithText();
-	      g.drawImage(img, 20,20,this);
+	      g.drawImage(img, 200,500,this);
 	   }
 
 	   private Image createImageWithText() {
@@ -34,6 +34,7 @@ public class textImage extends JPanel{
 
 	      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	      frame.setSize(200, 200);
+	      frame.setLocationRelativeTo(null);
 	      frame.setVisible(true);
 	   }
 }
