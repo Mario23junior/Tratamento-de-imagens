@@ -22,7 +22,7 @@ public class PixelImagens {
 			width = image.getWidth();
 			height = image.getHeight();
 			
-			int cout = 0;
+		 	int cout = 0;
 			
 			for(int i = 0; i < height; i++) {
 				for(int j = 0; j < width; j++) {
@@ -41,5 +41,6 @@ public class PixelImagens {
 	
 	public static void main(String[] args) {
 		PixelImagens pixel = new PixelImagens();
+        pixel.toString();
 	}
 }
